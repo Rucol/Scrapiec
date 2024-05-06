@@ -1,29 +1,29 @@
-# Dostęp
+# Access
 
 Front: [https://zciwolvo.github.io/skapiec/]
 API: [https://www.igorgawlowicz.pl/skapiec/get_data]
 
-# Instrukcja lokalnego uruchamiania
+# Local startup instructions
 
-Aby uruchomić projekt lokalnie należy zmienić URL podane w fetchach w `skapiec/skapiec/src/app.js` w 15 i 16 linijce, zmieniamy:
+To run the project locally, change the URL given in fetches in `skapiec/skapiec/src/app.js` in lines 15 and 16, we change:
 
-`https://www.igorgawlowicz.pl/skapiec/scrape?phrase=${search}&page=${selectedPage}` na `http://127.0.0.1:5000/scrape?phrase=${search}&page=${selectedPage}`
+`https://www.igorgawlowicz.pl/skapiec/scrape?phrase=${search}&page=${selectedPage}` at `http://127.0.0.1:5000/scrape?phrase=${search}&page= ${selectedPage}`
 
-oraz
+and
 
-`https://www.igorgawlowicz.pl/skapiec/get_data?phrase=${search}` na `http://127.0.0.1:5000/get_data?phrase=${search}`
+`https://www.igorgawlowicz.pl/skapiec/get_data?phrase=${search}` to `http://127.0.0.1:5000/get_data?phrase=${search}`
 
-następnie musimy przygotować dwa okna terminala:
+then we need to prepare two terminal windows:
 
-pierwsze otwieramy w głównym repozytorium, musimy mieć zainstalowanego pythona3, następnie piszemy:
+we open the first one in the main repository, we must have python3 installed, then we write:
 
 ```bash
 pip install -r requirements.txt
 
-python server.py
+pythonserver.py
 ```
 
-Teraz musimy otworzyć drugi terminal w ścieżce `skapiec/skapiec`, musimy mieć zainstalowanego `node`'a:
+Now we need to open a second terminal in the path `skapiec/skapiec`, we must have `node` installed:
 
 ```bash
 npm install
@@ -31,4 +31,4 @@ npm install
 npm start
 ```
 
-Aplikacja uruchomi się lokalnie i możemy korzystać z niej z URL w konsoli
+The application will run locally and we can use it from the URL in the console
