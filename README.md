@@ -1,4 +1,4 @@
-## Whai i did?
+## Whai I did?
 
 The entire scrapper file, I scraped prices using BS4, searching for information using html tags. 
 
