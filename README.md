@@ -1,3 +1,7 @@
+## Whai i did?
+
+The entire scrapper file, I scraped prices using BS4, searching for information using html tags. 
+
 # Access
 
 Front: [https://zciwolvo.github.io/skapiec/]
