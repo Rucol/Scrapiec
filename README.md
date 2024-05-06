@@ -1,6 +1,6 @@
 ## Whai I did?
 
-The entire scrapper file, I scraped prices using BS4, searching for information using html tags. 
+The entire scrapper file, I scraped prices using BS4, searching for information using html tags. I was using there Beautiful Soup 4, html parser, requests.
 
 # Access
 
